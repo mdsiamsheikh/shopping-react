@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from "react";
 
 const CartList = ({ data }) => {
   const { name, image, quantity, price } = data;
