@@ -30,18 +30,18 @@ const Cart = () => {
 
       <div className="container mx-auto">
         {cartItem.length <= 0 ? (
-          <h1 className="text-center text-4xl mt-32">Your Cart Is Empty</h1>
+          <h1 className="mt-32 text-4xl text-center">Your Cart Is Empty</h1>
         ) : (
           cartItem.map((item) => <CartList key={item.id} data={item} />)
         )}
 
         {cartItem.length > 0 && (
           <div className="max-w-[800px] mx-auto mt-4">
-            <h2 className="text-right text-3xl font-bold">
+            <h2 className="text-3xl font-bold text-right">
               Total: ${totalPrice()}
             </h2>
             <button
-              className="text-right bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-red-800"
+              className="block px-12 py-4 mx-auto mt-4 text-right text-white bg-red-600 hover:bg-red-800"
               onClick={createCheckoutSession}
             >
               Checkout

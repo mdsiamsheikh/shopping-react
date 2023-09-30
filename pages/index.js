@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
 
       <section className="container mx-auto">
-        <h1 className="text-4xl mt-4 text-center">Our Products</h1>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <h1 className="mt-4 text-4xl text-center">Our Products</h1>
+        <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-3">
           {data.map((product) => (
             <Product product={product} />
           ))}

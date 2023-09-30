@@ -23,21 +23,21 @@ const Product = ({ product }) => {
   };
 
   return (
-    <div className="bg-[#fff] pt-6 pb-4 shadow-2xl">
+    <div className="bg-[#fff] pt-6 pb-4 shadow-2xl rounded-[10px]">
       <img
-        className="mx-auto w-[350px] h-[200px] object-contain"
+        className="mx-auto w-[350px] h-[200px] object-contain px-12"
         src={product.image}
         alt=""
       />
 
-      <div className="mt-4 px-6">
+      <div className="px-6 mt-4">
         <div className="flex items-center justify-between text-[26px]">
           <h1>{product.name}</h1>
           <h3>${product.price}</h3>
         </div>
 
         <button
-          className="bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-red-800"
+          className="block px-12 py-4 mx-auto mt-4 text-white rounded-[6px] bg-red-600 hover:bg-red-800"
           onClick={addItemsToCart}
         >
           Add To Cart
