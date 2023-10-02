@@ -15,7 +15,7 @@ export default function Home() {
 
       <Navbar />
 
-      <section className="container mx-auto text-center px-[44px]">
+      <section className="container mx-auto text-center ">
         <h1 className="mt-4 text-4xl text-center">Our Products</h1>
         <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-3">
           {data.map((product) => (
