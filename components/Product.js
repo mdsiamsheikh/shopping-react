@@ -23,7 +23,7 @@ const Product = ({ product }) => {
   };
 
   return (
-    <div className="bg-[#fff] pt-6 pb-4 shadow-2xl rounded-[10px]">
+    <div className="bg-[#fff] pt-6 pb-4 shadow-2xl rounded-[6px]">
       <img
         className="mx-auto w-[350px] h-[200px] object-contain px-12"
         src={product.image}
