@@ -3,7 +3,7 @@
 
 
 
-Live version of this site:
+Live version of this site:https://shopping-react1.netlify.app
 
 # Demo
 
