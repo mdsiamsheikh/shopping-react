@@ -1,4 +1,4 @@
-# linkdin-clone
+# Shopping-React
 
 
 
