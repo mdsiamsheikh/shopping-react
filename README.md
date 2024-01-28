@@ -1,6 +1,7 @@
 # Shopping-React
+Creating a visually appealing and responsive shopping web app with React.js and Next.js showcases your commendable development skills. The use of TailwindCSS, grid, flexbox, transform, and adherence to the BEM convention ensures secure functionality and optimal UI design. This results in an engaging user experience across different screen sizes
 
-Developing a shopping-react web app using react.js and Next.js, complete with secure functionality through Your use of TaliwindCSS, grid, flexbox, transform, and BEM convention for optimal UI design is commendable and contributes to the visually appealing and responsive experience of the app on various screen.
+
 
 
 Live version of this site:https://shopping-react1.netlify.app
